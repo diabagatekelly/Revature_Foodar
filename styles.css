@@ -1,0 +1,299 @@
+/*General*/
+body {
+  text-align: center;
+  background-color: white;
+}
+
+header {
+text-align: left;
+}
+
+h1 {
+  border-bottom: 3px #eaeaea solid;
+  padding-bottom: 10px;
+  color: #ccad52;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding-top: 50px;
+  color: black;
+}
+
+
+p {
+  padding-bottom: 50px;
+  color: #565656;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding: 20px 20px 0 20px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+h3 {
+  color: white;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.flex h3 {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ccad52;
+}
+
+/*Register page*/
+.register {
+  font-size: 20px;
+  text-align: left;
+  margin: 50px 0 15px 305px;
+}
+
+form {
+  text-align: left;
+}
+
+.register-page {
+  width: 50%;
+  margin: 20px 305px 50px;
+  padding-top: 30px;
+  background-color: #ccad52;
+}
+
+legend {
+  margin-left: 305px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.personal-label {
+margin-left: 25px;
+}
+
+.float-left {
+  float: left;
+}
+
+.register-input, .float-left .register-input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px 20px 30px 25px;
+}
+
+.register-button {
+  margin: 0 0 50px 570px;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #ccad52;
+}
+/*Homepage*/
+#banner {
+  background-color: #ccad52;
+  padding: 0px;
+  margin: 0;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.ads {
+  text-decoration: none;
+}
+
+.ads:hover {
+  color: black;
+}
+
+
+#close {
+  visibility: hidden;
+float: right;
+display: inline-block;
+margin-right: 1px;
+border: 1px black solid;
+background-color: lightgray;
+padding: 0;
+}
+
+.logo {
+float: left;
+padding: 10px;
+}
+
+.home-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  float: right;
+  padding: 17px 20px 0 0;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+header {
+margin: 5px;
+}
+
+.home-title {
+  background-image: url('food.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 650px;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+.home-title h1 {
+  color: white;
+  padding-top: 300px;
+  margin-top: 0;
+  border-bottom: none;
+  font-size: 50px;
+  text-shadow: 3px 3px 5px black
+}
+
+#rest-coupons {
+  margin-top: 50px;
+  border-bottom: 1px solid lightgray;
+}
+
+#rest-coupons img {
+  width: 300px;
+  height: 185px;
+  border-radius: 20%;
+  align-self: center;
+}
+
+#rest-coupons h3 {
+  color: black;
+}
+
+.rest-flex {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.rest-desc{
+  width: 350px;
+  text-align: center;
+}
+
+#coupon1, #coupon2, #coupon3 {
+  visibility: collapse;
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.driver {
+  padding-bottom: 50px;
+}
+
+.driver button {
+  margin-left: 0;
+}
+
+#message {
+  color: red;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#message2 {
+  color: red;
+  font-size: 20px;
+  visibility: collapse;
+  text-decoration: none;
+}
+
+/*Request*/
+.request-prompt {
+  font-size: 20px;
+  text-align: left;
+  margin: 50px 0 15px 305px;
+}
+
+.request {
+  width: 50%;
+  margin-left: 305px;
+  text-transform: uppercase;
+}
+
+.request-input {
+  width: 50%;
+  height: 30px;
+  margin: 10px 305px 50px;
+  text-transform: uppercase;
+}
+
+.request-legend {
+  margin-left: 305px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.style-fieldset {
+  margin: 20px 305px 50px;
+  background-color: #ccad52;
+  width: 50%;
+  text-align: center;
+}
+
+.tip-fieldset {
+  margin: 20px 305px 50px;
+  background-color: #ccad52;
+  width: 50%;
+  text-align: center;
+}
+
+.flex-col {
+float: left;
+display: flex;
+flex-direction: column;
+padding: 30px 55px;
+}
+
+.flex-col-style {
+float: left;
+display: flex;
+flex-direction: column;
+padding: 30px 80px;
+}
+
+.radio {
+  margin-top: 10px;
+}
+
+.radio2 {
+  margin-top: 10px;
+}
+
+.total {
+  margin: 0 0 50px 570px;
+  font-size: 20px;
+  padding: 10px 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.request-button {
+  margin: 0 0 50px 590px;
+  font-size: 20px;
+  padding: 10px 30px;
+  background-color: #ccad52;
+}

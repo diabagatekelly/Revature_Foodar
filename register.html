@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="logo.png" alt="Foodar logo"/></a>
+    </header>
+    <h1>Register</h1>
+    <p class="register">Please fill out the form below:</p>
+    <!--Form begins-->
+    <form method="post">
+      <!--'Details' fieldset-->
+      <legend>Personal Details:</legend>
+      <fieldset class='register-page'>
+          <!--Email label & box-->
+          <div class="float-left">
+            <div><label class='personal-label' for="email">Email</label></div>
+            <input class='register-input' id="email" name="details" type="email" placeholder="Email" required/>
+          </div>
+          <!--Password label & box-->
+          <div>
+            <div><label class='personal-label' for="password">Password</label></div>
+            <input class='register-input' id="password" name ="details" type="password" placeholder="Password" required/>
+          </div>
+          <!--First Name label & box-->
+          <div class="float-left">
+            <div><label class='personal-label' for="fName">First Name</label></div>
+            <input class='register-input' id="fName" name="details" type="text" placeholder="First Name" required/>
+          </div>
+          <!--Last Name label & box-->
+          <div>
+            <div><label class='personal-label' for="lName">Last Name</label></div>
+            <input class='register-input' id="lName" name="details" type="text" placeholder="Last Name" required/>
+          </div>
+        </fieldset>
+        <!--'Address' fieldset-->
+        <legend class="address">Contact Details:</legend>
+        <fieldset class='register-page'>
+          <!--Address label & box-->
+          <div class="float-left">
+            <div><label class='personal-label' for="address">Address</label></div>
+            <input class='register-input' id="address" name="address" type="text" placeholder="Address" required/>
+          </div>
+          <!--Street label & box-->
+          <div>
+            <div><label class='personal-label' class="street" for="street">Street</label></div>
+            <input class='register-input' id="street" name="address" type="text" placeholder="Street" required/>
+          </div>
+          <!--City label & box-->
+          <div class="float-left">
+            <div><label class='personal-label' for="city">City</label></div>
+            <input class='register-input' id="city" name="address" type="text" placeholder="City" required/>
+          </div>
+          <!--Zipcode label & box-->
+          <div>
+            <div><label class='personal-label' class="zipcode" for="zipcode">Zipcode</label></div>
+            <input class='register-input' id="zipcode" name="address" type="text" placeholder="Zipcode" required/>
+          </div>
+        </fieldset>
+        <!--Button-->
+        <button class='register-button' type='submit'>Register</button>
+        <!--Footer-->
+        <footer>
+          <div class="flex">
+          <div>
+          <nav>
+            <ul>
+              <h3>Site Map</h3>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="C:/users/Kelly/Onedrive/Desktop/Revature/Foodar/about.html">About Foodar</a></li>
+              <li><a href="C:/users/Kelly/Onedrive/Desktop/Revature/Foodar/register.html">Register</a></li>
+              <li><a href="request.html">Request a driver</a></li>
+            </ul>
+          </nav>
+          </div>
+          <div>
+            <ul>
+              <h3>Legal</h3>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Condition</a></li>
+            </ul>
+          </div>
+          <div><h3>We love food ;)</h3></div>
+          </div>
+          <p>&copy;2015. All Rights Reserved.</p>
+        </footer>
+  </body>
+</html>

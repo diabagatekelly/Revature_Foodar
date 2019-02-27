@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Request A Driver</title>
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="logo.png" alt="Foodar logo"/></a>
+    </header>
+    <h1>Submit Your Request</h1>
+    <p class="request-prompt">Please fill out the form below:</p>
+    <!--Form begins-->
+    <form method="post">
+    <!--Email-->
+      <div>
+        <div><label class="request" for="email">Email</label></div>
+        <input class="request-input" id="email" name="email" type="email" placeholder="Email" required/>
+      </div>
+    <!--Restaurant-->
+      <div>
+        <div><label class="request" for="restaurant">Restaurant</label></div>
+        <input class="request-input" id="restaurant" name="restaurant" type="text" placeholder="Restaurant" required/>
+      </div>
+    <!--Choose your style-->
+      <legend class='request-legend'>Choose your style:</legend>
+      <fieldset class='style-fieldset'>
+        <!--Classic-->
+        <div class='flex-col-style'>
+          <label for="classic">Classic</label>
+          <input class="radio" id="classic" name="style" value=3.00 type="radio"/>
+        </div>
+        <!--Premium-->
+        <div class='flex-col-style'>
+          <label for="premium">Premium</label>
+          <input class="radio" id="premium" name="style" value=5.00 type="radio"/>
+        </div>
+        <!--Royal-->
+        <div class='flex-col-style'>
+          <label for="royal">Royal</label>
+          <input class="radio" id="royal" name="style" value=10.00 type="radio"/>
+        </div>
+        </fieldset>
+      <!--Add tip-->
+      <legend class='request-legend'>Add Tip:</legend>
+      <fieldset class='tip-fieldset'>
+        <!--10% tip-->
+        <div class='flex-col'>
+          <label for="ten">10%</label>
+          <label for="ten">They did</label>
+          <label for="ten">their job.</label>
+          <input class="radio2" id="ten" name="tip" value=0.10 type="radio"/>
+        </div>
+        <!--15% tip-->
+        <div class='flex-col'>
+          <label for="fifteen">15%</label>
+          <label for="fifteen">They made you</label>
+          <label for="fifteen">feel special.</label>
+          <input class="radio2" id="fifteen" name="tip" value=0.15 type="radio"/>
+        </div>
+        <!--20% tip-->
+        <div class='flex-col'>
+          <label for="twenty">20%</label>
+          <label for="twenty">I wanna give them more,</label>
+          <label for="twenty">but this is all I have!</label>
+          <input class="radio2" id="twenty" name="tip" value=0.20 type="radio"/>
+        </div>
+        <!--Total-->
+      </fieldset>
+        <p class="total"><span id="total"> </span></p>
+        <!--Button-->
+        <button class='request-button' type='submit'>Request</button>
+      <!--Footer-->
+      <footer>
+        <div class="flex">
+        <div>
+        <nav>
+          <ul>
+            <h3>Site Map</h3>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="C:/users/Kelly/Onedrive/Desktop/Revature/Foodar/about.html">About Foodar</a></li>
+            <li><a href="C:/users/Kelly/Onedrive/Desktop/Revature/Foodar/register.html">Register</a></li>
+            <li><a href="request.html">Request a driver</a></li>
+          </ul>
+        </nav>
+        </div>
+        <div>
+          <ul>
+            <h3>Legal</h3>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+        <div><h3>We love food ;)</h3></div>
+        </div>
+        <p>&copy;2015. All Rights Reserved.</p>
+      </footer>
+      <script src="functions_request.js"></script>
+  </body>
+</html>
